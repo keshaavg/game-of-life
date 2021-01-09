@@ -17,7 +17,7 @@ namespace GameOfLife.Domain
 
         public char Evaluate(char[] neighbours)
         {
-            var activeNeighbours = neighbours.Where(x => x == ALIVE).Count();
+            var activeNeighbours = neighbours.Count(x => x == ALIVE);
 
             if (activeNeighbours < 2 || activeNeighbours > 3)
                 return DEAD;
