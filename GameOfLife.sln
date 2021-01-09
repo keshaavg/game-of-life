@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Tests", "GameOfL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Domain", "GameOfLife.Domain\GameOfLife.Domain.csproj", "{699EBEA8-A554-4C97-A859-2C0716954C42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.App", "GameOfLife.App\GameOfLife.App.csproj", "{076B24D0-0EC4-477F-9B18-6C5C87CF7046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.App", "GameOfLife.App\GameOfLife.App.csproj", "{076B24D0-0EC4-477F-9B18-6C5C87CF7046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C65E331E-A263-4841-83D0-AE3F5BED1BEC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
